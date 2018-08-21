@@ -1,0 +1,158 @@
+@font-face {
+		font-family: voyanui; 
+		src: url('VoyaNui_1.15_4.ttf');
+		}
+		
+@font-face {
+	font-family: matoran; 
+	src: url('Matoran.ttf');
+}
+
+body {
+	text-align: center;
+	background-image: url("hau-background.png");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: repeat;
+}
+
+h1 {
+	font-family: voyanui;
+	margin-left: 2%;
+	background-color: rgba(213, 223, 222, 0.2);
+}
+
+h2, h3 {
+	font-family: voyanui;
+	text-align: center;
+}
+
+p {
+	font-family: helvetica;
+	background-color: rgba(213, 223, 222, 0.7);
+	border: solid 2px rgba(0,0,0,0.5);
+	border-radius: 9px;
+	padding: 20px;
+	margin-left: 300px;
+	margin-right: 30px;
+}
+	p a {
+		color: #e40303;
+	}
+	
+		p a:hover {
+			color: #ff8c00;
+		}
+
+nav.emo ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #19191c;
+	}
+		
+	nav.emo li {
+		float: left;
+	}
+	
+	nav.emo a {
+		color: white;
+		font-family: voyanui;
+		display: block;
+		padding: 16px;
+	}
+	
+		nav.emo a:hover {
+			background-color: #e40303;
+			color: #151516;
+		}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	color: white;
+	background-color: #19191c;
+	padding: 16px;
+}
+
+footer .jalkine {
+	font-family: matoran;
+}
+
+/* index */
+
+.esittely p {
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+/* world */
+
+nav.poikanen {
+	float: left;
+	font-family: voyanui;
+	padding-right: 5px;
+	border-right: solid 1px black;
+	width: 268px;
+}
+
+	nav.poikanen ul {
+		list-style-type: none;
+		background-color: #19191c;
+		padding: 5px;
+	}
+	
+	nav.poikanen li {
+		padding: 5px;
+	}
+	
+	nav.poikanen a {
+		color: white;
+		text-decoration: none;
+		display: block;
+		padding: 1.5em;
+	}
+	
+		nav.poikanen a:hover {
+			background-color: #ff8c00;
+			color: #151516;
+		}
+
+.kartta {
+	text-align: center;
+}
+
+img {
+	margin: 10px;
+}
+
+.maailma {
+	text-align: center;
+}
+
+.keskitys {
+	margin-left: 300px;
+	margin-right: 30px;
+}
+
+nav .lajit-linkit {
+        display: none;
+        margin-left: 40px;
+    }
+    
+    nav .lajit-linkit a {
+        padding: 5px 75px;
+    }    
+    
+    nav .lajit-teksti:hover {
+    cursor: pointer;
+    }
+
+@keyframes colors {
+	25%	{background-color: #19191c}
+	50%	{background-color: #151516}
+	75%	{background-color: #ff8c00}
+	100%	{background-color: #e40303 }
+}

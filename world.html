@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="sivusto.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script> 
+        $(document).ready(function(){
+            $("img").hover(
+                function(){
+                    $(this).animate({width: '300px', height: '300px'}, 300);
+                }, function(){
+                    $(this).animate({width: '250px', height: '249px'}, 200);
+            });
+</script>
+		<title> World - BIONICLE fanpage </title>
+	</head>
+	<body>
+		<header> 
+			<h1> BIONICLE fanpage </h1>
+		</header>
+		<nav class="emo">
+			<ul>
+			  <li><a href="">Home</a></li>
+			  <li><a href="story.html">Story</a></li>
+			  <li><a href="world.html">World</a></li>
+			  <li><a href="media.html">Media</a></li>
+			  <li><a href="community.html">Community</a></li>
+			</ul>
+		</nav>
+		
+		<nav class="poikanen">
+            <ul>
+                    <li><a href="matoran.html"> Matoran Universe </a></li>
+                    <li><a href="spherus.html"> Spherus Magna </a></li>
+                    </ul>
+            <ul class="lajit-valikko">
+                <li class="lajit-teksti"><a> Species </a></li>
+                    <ul class="lajit-linkit">
+                        <li> <a href="matoran.html"> Matoran </a> </li>
+                        <li> <a href="rahi.html"> Rahi </a> </li>
+                    </ul>
+            </ul>
+        </nav>
+		
+		<div class="maailma">
+			<h2> Explore the world </h2>
+		
+			<p> The World of BIONICLE is full of rich lore and mythos. Click around and explore the mysterious Matoran Universe and the mystical planet of Spherus Magna. Click one of the pictures below or use the sidebar on the left. </p>
+	
+			<div class="kartat">
+				<a href="matoran.html"> <img class="matoran" src="matoranuniverse.jpg" width="250" height="249"> </a>
+				<a href="spherus.html"> <img class="spherus" src="spherusmagna.png"> </a>
+			</div>
+			
+		</div>
+		
+		<footer> 
+			<font face="matoran"> Meri Malminen </font> Meri Malminen & Meeri Santikko  <font face="matoran">  Meeri Santikko </font>
+		</footer>
+		
+	</body>
+</html>

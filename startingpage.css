@@ -1,0 +1,66 @@
+@font-face {
+		font-family: voyanui; 
+		src: url('VoyaNui_1.15_4.ttf');
+		}
+		
+@font-face {
+	font-family: matoran; 
+	src: url('Matoran.ttf');
+}
+
+p.welcome {
+	text-align: center;
+	margin-top: 20%;
+	font-family: voyanui;
+	font-size: 40px;
+	color: rgba(0,0,0,0);
+	animation-name: fade1;
+	animation-duration: 2.5s;
+	animation-direction: alternate;
+	transition-timing-function: ease-in-out;
+	animation-iteration-count: 2;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+p.continue {
+	text-align: center;
+	animation-name: fade2;
+	animation-duration: 8s;
+	font-size: 25px;
+	padding: 25px;
+	margin: auto 40%;
+}
+
+body {
+	background: linear-gradient(120deg, #e40303, #ff8c00, #19191c, #151516);
+	background-attachment: fixed;
+}
+
+
+@keyframes fade1 {
+	0%	{color: rgba(0,0,0,0);}
+	20% {color: rgba(0,0,0,0.2);}
+	40% {color: rgba(0, 0, 0, 0.4);}
+	60% {color: rgba(0,0,0,0.6);}
+	80%	{color: rgba(0,0,0,0.8);}
+	100% {color: rgba(0,0,0,1);}
+}
+
+@keyframes fade2 {
+	0%	{color: rgba(0,0,0,0);}
+	10% {color: rgba(0,0,0,0);}
+	20% {color: rgba(0,0,0,0);}
+	30% {color: rgba(0,0,0,0);}
+	40%	{color: rgba(0,0,0,0);}
+	50% {color: rgba(0,0,0,0.2);} 
+	60% {color: rgba(0,0,0,0.4);}
+	70% {color: rgba(0,0,0,0.6);}
+	80% {color: rgba(0,0,0,0.8);}
+	90% {color: rgba(0,0,0,1);}
+	100%	{color: rgba(0,0,0,1);}
+}
