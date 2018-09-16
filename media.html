@@ -3,47 +3,67 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="sivusto.css">
 		<title> Media - BIONICLE fanpage </title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+            $(".kuva").hover(
+                function(){
+                    $(this).animate({width: '20%', height: '20%'}, 200);
+                }, function(){
+                    $(this).animate({width: '200px', height: '280px'}, 100);
+            });
+			
+			$(".kuva").mouseleave(function(){ $(this).dequeue(); });
+			
+        });
+         </script>
+		 
 	</head>
 	<body>
 		
-		<img src="header6.png">
+		<div class="content">
 		
-		<nav class="emo">
-			<ul>
-			  <li><a href="home.html">Home</a></li>
-			  <li><a href="world.html">World</a></li>
-			  <li><a href="media.html">Media</a></li>
-			  <li><a href="community.html">Community</a></li>
-			</ul>
-		</nav>
+			<img src="header6.png">
+			
+			<nav class="emo">
+				<ul>
+				  <li><a href="home.html">Home</a></li>
+				  <li><a href="world.html">World</a></li>
+				  <li><a href="media.html">Media</a></li>
+				  <li><a href="community.html">Community</a></li>
+				</ul>
+			</nav>
+			
+			<nav class="poikanen">
+				<ul>
+					<li><a href="books.html"> Books and Serials </a></li>
+					<li><a href="games.html"> Games </a></li>
+					<li><a href="movies.html"> Movies </a></li
+				</ul>
+			</nav>
 		
-		<nav class="poikanen">
-			<ul>
-				<li><a href="books.html"> Books and Serials </a></li>
-				<li><a href="games.html"> Games </a></li>
-				<li><a href="movies.html"> Movies </a></li
-			</ul>
-		</nav>
-	
-		<h2> How to get into the story? </h2>
+			<h2> How to get into the story? </h2>
+			
+			<p> As the lore and story of BIONICLE is so vast and unnecessarily complicated, it is easy for new fans to become overwhelmed. The story has been explained through various forms of media from books to video games. Because of this <a href="http://www.bzpower.com/board/topic/16288-unraveling-the-media-maze-of-bionicle-2001-2010/">"Media Maze"</a> the timeline has become less and less straightforward and newcomers won't necessarily know where to start digging in.   </p>
+			
+			<h2> Where to start? </h2>
+			
+			<p> If you're curious, the easiest way to start is by reading the comics online. Various websites such as <a href="http://www.biomediaproject.com">BioMedia Project</a> have preserved the comics in their original form as well as the online games and web serials. But even though the comics explain much of the main storyline, the novels are far more accurate and a better way to get into the franchise.</p>
+			
+			<h2 class="keskitys"> Canon? Non-canon? </h2>
+			
+			<p> <a href="https://www.urbandictionary.com/define.php?term=Canon">Canon</a> is the term when talking about whether something is from the official storyline in the franchise. There is a running gag that nothing in BIONICLE is canon. However, it is good to keep in mind that everything has some degree of canonicity. <br><br> 
+			
+			Very canon: <br> <a href="https://biosector01.com/wiki/Books"><img title="Books" class="kuva" width="200" src="chronicles1.png"></a> <br><br> 
+			
+			Somewhat canon: <br> <a href="https://biosector01.com/wiki/Movies_and_Animations"><img title="Movies" class="kuva" width="200" src="maskoflight.jpg"></a> <br><br> 
+			
+			Very non-canon: <br> <a href="https://biosector01.com/wiki/Video_Games"><img title="Games" class="kuva" width="200" src="bheroes.jpg"></a> </p> 
 		
-		<p> As the lore and story of BIONICLE is so vast and unnecessarily complicated, it is easy for new fans to become overwhelmed. The story has been explained through various forms of media from books to video games. Because of this <a href="http://www.bzpower.com/board/topic/16288-unraveling-the-media-maze-of-bionicle-2001-2010/">"Media Maze"</a> the timeline has become less and less straightforward and newcomers won't necessarily know where to start digging in.   </p>
+		</div>
 		
-		<h2> Where to start? </h2>
-		
-		<p> If you're curious, the easiest way to start is by reading the comics online. Various websites such as <a href="http://www.biomediaproject.com">BioMedia Project</a> have preserved the comics in their original form as well as the online games and web serials. But even though the comics explain much of the main storyline, the novels are far more accurate and a better way to get into the franchise.</p>
-		
-		<h2 class="keskitys"> Canon? Non-canon? </h2>
-		
-		<p> <a href="https://www.urbandictionary.com/define.php?term=Canon">Canon</a> is the term when talking about whether something is from the official storyline in the franchise. There is a running gag that nothing in BIONICLE is canon. However, it is good to keep in mind that everything has some degree of canonicity. <br><br> 
-		
-		Very canon: <br> <a href="https://biosector01.com/wiki/Books"><img title="Books" width="200" src="chronicles1.png"></a> <br><br> 
-		
-		Somewhat canon: <br> <a href="https://biosector01.com/wiki/Movies_and_Animations"><img title="Movies" src="maskoflight.jpg"></a> <br><br> 
-		
-		Very non-canon: <br> <a href="https://biosector01.com/wiki/Video_Games"><img title="Games" width="200" src="bheroes.jpg"></a> </p> 
-		
-		<footer> 
+		<footer class="jalkine"> 
 			<font face="matoran"> Meri Malminen </font> Meri Malminen & Meeri Santikko  <font face="matoran">  Meeri Santikko </font>
 		</footer>
 		

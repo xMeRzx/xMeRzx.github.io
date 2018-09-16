@@ -14,6 +14,8 @@ body {
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: repeat;
+	height: 100%;
+	margin: 0;
 }
 
 h1 {
@@ -70,14 +72,18 @@ a {
 	text-decoration: none;
 }
 
-footer {
+.content {
+	padding: 15px;
+	padding-bottom: 50px;
+	min-height: 100%;
+}
+
+.jalkine {
 	color: white;
 	background-color: #19191c;
 	padding: 16px;
-}
-
-footer .jalkine {
-	font-family: matoran;
+	height: 15px;
+	margin-top: -30px;
 }
 
 /* home */
