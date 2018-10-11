@@ -34,9 +34,10 @@ p {
 	background-color: rgba(213, 223, 222, 0.7);
 	border: solid 2px rgba(0,0,0,0.5);
 	border-radius: 9px;
-	padding: 20px;
-	margin-left: 300px;
-	margin-right: 30px;
+	padding: 40px;
+	margin-left: 360px;
+	margin-right: 160px;
+	margin-bottom: 30px;
 }
 	p a {
 		color: #e40303;
@@ -132,15 +133,24 @@ nav.poikanen {
 
 img {
 	margin: 10px;
+	padding: none;
 }
+
+	img.sivukuva {
+		float: right; 
+		margin-top: -20px;
+		margin-right: -20px;
+		margin-left: 20px
+		margin-bottom: 20px;
+	}
 
 .maailma {
 	text-align: center;
 }
 
 .keskitys {
-	margin-left: 300px;
-	margin-right: 30px;
+	margin-left: 360px;
+	margin-right: 160px;
 }
 
 nav .lajit-linkit {
