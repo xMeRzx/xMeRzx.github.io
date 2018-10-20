@@ -166,6 +166,10 @@ nav .lajit-linkit {
     cursor: pointer;
     }
 	
+.fontti {
+	font-family: matoran;
+}
+	
 @keyframes colors {
 	25%	{background-color: #19191c}
 	50%	{background-color: #151516}
