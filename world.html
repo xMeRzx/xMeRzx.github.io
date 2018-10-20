@@ -3,21 +3,6 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="sivusto.css">
 		<title> World - BIONICLE fanpage </title>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script> 
-        $(document).ready(function(){
-            $(".kuva").hover(
-                function(){
-                    $(this).animate({width: '300px', height: '300px'}, 200);
-                }, function(){
-                    $(this).animate({width: '250px', height: '249px'}, 100);
-            });
-			
-			$(".kuva").mouseleave(function(){ $(this).dequeue(); });
-			
-        });
-         </script>
 
 	</head>
 	
@@ -59,6 +44,21 @@
 	<footer class="jalkine"> 
 		<font face="matoran"> Meri Malminen </font> Meri Malminen & Meeri Santikko  <font face="matoran">  Meeri Santikko </font>
 	</footer>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+            $(".kuva").hover(
+                function(){
+                    $(this).animate({width: '300px', height: '300px'}, 200);
+                }, function(){
+                    $(this).animate({width: '250px', height: '249px'}, 100);
+            });
+			
+			$(".kuva").mouseleave(function(){ $(this).dequeue(); });
+			
+        });
+         </script>
 	
 	</body>
 	
