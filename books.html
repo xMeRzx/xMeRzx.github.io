@@ -3,28 +3,13 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="sivusto.css">
 		<title> Books and serials - BIONICLE fanpage </title>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script> 
-        $(document).ready(function(){
-            $(".kuva").hover(
-                function(){
-                    $(this).animate({width: '20%', height: '20%'}, 200);
-                }, function(){
-                    $(this).animate({width: '200px', height: '280px'}, 100);
-            });
-			
-			$(".kuva").mouseleave(function(){ $(this).dequeue(); });
-			
-        });
-         </script>
 		 
 	</head>
 	<body>
 		
 		<div class="content">
 		
-			<img src="header6.png">
+			<img src="header7.png">
 			
 			<nav class="emo">
 				<ul>
@@ -51,7 +36,7 @@
 			
 			<h3 class="keskitys">1. Magically find them at a flea market </h3>
 			
-			<p> If you get really <i>really</i> lucky you might stumble upon a book or two at your local flea market or at a garage sail. This depends on where you live around the world though. </p>
+			<p> If you get really <i>really</i> lucky you might stumble upon a book or two at your local flea market or at a garage sale. This depends on where you live around the world though. </p>
 			
 			<br>
 			
@@ -63,7 +48,7 @@
 			
 			<h3 class="keskitys"> 3. Get them from the local library (is this even possible?) </h3>
 			
-			<p> Honestly, I don't know if any library has any of the books, but hey, if you find one or two then good for you! (hehe that rhymed) </p>
+			<p> Honestly, I don't know if any library has any of the books, but hey, if you find one or two then good for you! <span style="font-size:12px ;text-decoration:line-through;">(hehe that rhymed)</span></p>
 			
 			<br>
 			
@@ -84,8 +69,23 @@
 		</div>
 		
 		<footer class="jalkine"> 
-			<font face="matoran"> Meri Malminen </font> Meri Malminen & Meeri Santikko  <font face="matoran">  Meeri Santikko </font>
+			<span class="fontti"> Meri Malminen </span> Meri Malminen & Meeri Santikko <span class="fontti">  Meeri Santikko </span>
 		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+            $(".kuva").hover(
+                function(){
+                    $(this).animate({width: '20%', height: '20%'}, 200);
+                }, function(){
+                    $(this).animate({width: '200px', height: '280px'}, 100);
+            });
+			
+			$(".kuva").mouseleave(function(){ $(this).dequeue(); });
+			
+        });
+         </script>
 		
 	</body>
 </html>
