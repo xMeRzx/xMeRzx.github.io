@@ -2,39 +2,61 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="sivusto.css">
-		<title> Metru Nui - BIONICLE fanpage </title>
+		<title> The Matoran - BIONICLE fanpage </title>
+		
 	</head>
 	<body>
 		
-		<div class="content">
+	<div class="content">
 		
-			<img src="header7.png">
-			
-			<nav class="emo">
-				<ul>
-				  <li><a href="home.html">Home</a></li>
-				  <li><a href="world.html">World</a></li>
-				  <li><a href="media.html">Media</a></li>
-				  <li><a href="community.html">Community</a></li>
-				</ul>
-			</nav>
-			
-			<nav class="poikanen">
-				<ul>
-					<li><a href="matoranuniverse.html"> Matoran Universe </a></li>
-					<li><a href="spherusmagna.html"> Spherus Magna </a></li>
-				</ul>
-			</nav>
+		<img src="header7.png">
+		
+		<nav class="emo">
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="world.html">World</a></li>
+			  <li><a href="media.html">Media</a></li>
+			  <li><a href="community.html">Community</a></li>
+			</ul>
+		</nav>
+		
+		<nav class="poikanen">
+            <ul>
+                <li><a href="matoranuniverse.html"> Matoran Universe </a></li>
+                <li><a href="spherusmagna.html"> Spherus Magna </a></li>
+            </ul>
+            <ul class="lajit-valikko">
+                <li class="lajit-teksti"><a> Species </a></li>
+                    <ul class="lajit-linkit">
+                      	<li> <a href="makuta.html"> Makuta </a> </li>
+                        <li> <a href="matoran.html"> Matoran </a> </li>
+                        <li> <a href="rahi.html"> Rahi </a> </li>
+                        <li> <a href="skakdi.html"> Skakdi </a> </li>
+                        <li> <a href="vortixx.html"> Vortixx </a> </li>
+                      </ul>
+				<li><a href="matorandictionary.html"> Matoran Dictionary </a></li>
+            </ul>
+        </nav>
 			
 			<h2> Metru Nui </h2>
+			
 			<p> Metru Nui (literally translated as "Great City") was a city located under the island of Metru Nui. It was known as the City of Legends and can be considered the most 
 			central location in the Matoran Universe. It functioned as the brain of the Great Spirit, and the working Matoran who lived there were essential in keeping the universe intact and active.  <br> <img src="metrunuimap.jpg"> <br> The city is slightly smaller than the island of Mata Nui, about 2 145 square kilometres. </p>
 		 
 		 </div>
 		
-		<footer class="jalkine"> 
-			<span class="fontti"> Meri Malminen </span> Meri Malminen & Meeri Santikko <span class="fontti">  Meeri Santikko </span>
-		</footer>
+				<footer class="jalkine"> 
+					<span class="fontti"> Meri Malminen </span> Meri Malminen & Meeri Santikko <span class="fontti">  Meeri Santikko </span>
+				</footer>
 		
-	</body>
-</html>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		        <script> 
+			        $(document).ready(function() {
+					$('.lajit-teksti').on('click', () => {
+		                $('.lajit-linkit').toggle();
+						});
+					});
+				</script>
+	
+			</body>
+		</html>
