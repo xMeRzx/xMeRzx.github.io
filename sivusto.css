@@ -85,6 +85,9 @@ a {
 	padding: 16px;
 	height: 15px;
 	margin-top: -30px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 /* home */
@@ -169,10 +172,40 @@ nav .lajit-linkit {
 .fontti {
 	font-family: matoran;
 }
-	
+		
 @keyframes colors {
 	25%	{background-color: #19191c}
 	50%	{background-color: #151516}
 	75%	{background-color: #ff8c00}
 	100%	{background-color: #e40303 }
+}
+
+
+
+
+
+
+
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
