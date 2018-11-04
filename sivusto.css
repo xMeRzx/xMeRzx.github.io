@@ -47,27 +47,32 @@ p {
 			color: #ff8c00;
 		}
 
-nav.emo ul{
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #19191c;
-	}
-		
-	nav.emo li {
-		float: left;
-	}
-	
-	nav.emo a {
-		color: white;
-		font-family: voyanui;
-		display: block;
-		padding: 16px;
-	}
-	
-		nav.emo a:hover {
-			background-color: #e40303;
-			color: #151516;
+nav.emo {
+	position: sticky;
+	top: 0px;
+}
+
+	nav.emo ul {
+		list-style-type: none;
+		overflow: hidden;
+		background-color: #19191c;
 		}
+			
+		nav.emo li {
+			float: left;
+		}
+		
+		nav.emo a {
+			color: white;
+			font-family: voyanui;
+			display: block;
+			padding: 16px;
+		}
+		
+			nav.emo a:hover {
+				background-color: #e40303;
+				color: #151516;
+			}
 
 a {
 	text-decoration: none;
