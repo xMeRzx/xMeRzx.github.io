@@ -29,6 +29,7 @@ h2, h3 {
 	text-align: center;
 }
 
+
 p {
 	font-family: helvetica;
 	background-color: rgba(213, 223, 222, 0.7);
@@ -49,12 +50,12 @@ p {
 
  a {
 		color: #e40303;
-	}
+}
 	
 		 a:hover {
 			color: #ff8c00;
 		}
-
+		
 
 nav.emo {
     position: sticky;
@@ -65,7 +66,7 @@ nav.emo {
         list-style-type: none;
         overflow: hidden;
         background-color: #19191c;
-        }
+    }
             
         nav.emo li {
             float: left;
@@ -81,44 +82,17 @@ nav.emo {
             nav.emo a:hover {
                 background-color: #e40303;
                 color: #151516;
-            }
-a {
-	text-decoration: none;
-}
+        }
 
-.content {
-	padding: 15px;
-	padding-bottom: 50px;
-	min-height: 100%;
-}
-
-.jalkine {
-	color: white;
-	background-color: #19191c;
-	padding: 16px;
-	height: 15px;
-	margin-top: -30px;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-
-/* home */
-
-.esittely p {
-	text-align: center;
-	margin-right: 30%;
-	margin-left: 30%;
-}
-
-/* world */
-
+		
 nav.poikanen {
 	float: left;
 	font-family: voyanui;
 	padding-right: 5px;
 	border-right: solid 1px black;
 	width: 268px;
+	position: sticky;
+	top: 65px;
 }
 
 	nav.poikanen ul {
@@ -142,6 +116,48 @@ nav.poikanen {
 			background-color: #ff8c00;
 			color: #151516;
 		}
+
+		
+nav .lajit-linkit {
+        display: none;
+        margin-left: 40px;
+    }
+    
+    nav .lajit-linkit a {
+        padding: 5px 75px;
+    }    
+    
+    nav .lajit-teksti:hover {
+		cursor: pointer;
+    }
+	
+		
+a {
+	text-decoration: none;
+}
+
+.content {
+	padding: 15px;
+	padding-bottom: 50px;
+	min-height: 100%;
+}
+
+.jalkine {
+	color: white;
+	background-color: #19191c;
+	padding: 16px;
+	height: 15px;
+	margin-top: -30px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.esittely p {
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+}
 
 .kartta {
 	text-align: center;
@@ -169,40 +185,16 @@ img {
 	margin-right: 160px;
 }
 
-nav .lajit-linkit {
-        display: none;
-        margin-left: 40px;
-    }
-    
-    nav .lajit-linkit a {
-        padding: 5px 75px;
-    }    
-    
-    nav .lajit-teksti:hover {
-    cursor: pointer;
-    }
 	
 .fontti {
 	font-family: matoran;
-}
-		
-@keyframes colors {
-	25%	{background-color: #19191c}
-	50%	{background-color: #151516}
-	75%	{background-color: #ff8c00}
-	100%	{background-color: #e40303 }
 }
 
 
 .sanakirja { 
 	color: #e40303;
 	font-weight: bold; 
-	}
-
-
-
-
-
+}
 
 
 div.gallery {
@@ -225,4 +217,12 @@ div.gallery img {
 div.desc {
     padding: 10px;
     text-align: center;
+}
+		
+		
+@keyframes colors {
+	25%	{background-color: #19191c}
+	50%	{background-color: #151516}
+	75%	{background-color: #ff8c00}
+	100%	{background-color: #e40303 }
 }
