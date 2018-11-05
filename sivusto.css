@@ -207,7 +207,7 @@ img {
 }
 
 
-div.gallery {
+/* .gallery {
     margin: 10px;
     border: 1px solid transparent;
     float: left;
@@ -218,12 +218,12 @@ div.gallery {
 .gallery:hover {
     border: 1px solid #e40303;
 }
+*/
 
 .gallery img {
-    width: 275px;
-    height: auto;
-	filter: grayscale(100%);
-	transition: 1s;
+    height: 250px;
+	filter: grayscale(50%);
+	transition: 0.5s;
 }
 
 .gallery img:hover{
