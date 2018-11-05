@@ -47,6 +47,15 @@ p {
 			color: #ff8c00;
 		}
 
+ a {
+		color: #e40303;
+	}
+	
+		 a:hover {
+			color: #ff8c00;
+		}
+
+
 nav.emo {
     position: sticky;
     top: 0px;
@@ -197,22 +206,23 @@ nav .lajit-linkit {
 
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 10px;
+    border: 1px solid transparent;
     float: left;
-    width: 180px;
+    width: 325px;
+    height: 600px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #e40303;
 }
 
 div.gallery img {
-    width: 100%;
+    width: 275px;
     height: auto;
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
