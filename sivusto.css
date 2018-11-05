@@ -176,6 +176,16 @@ img {
 		margin-bottom: 20px;
 	}
 
+
+.kuva {
+	transition: 0.75s;
+}
+
+.kuva:hover {
+	transform: scale(1.25);
+}	
+	
+
 .maailma {
 	text-align: center;
 }
@@ -205,21 +215,28 @@ div.gallery {
     height: 600px;
 }
 
-div.gallery:hover {
+.gallery:hover {
     border: 1px solid #e40303;
 }
 
-div.gallery img {
+.gallery img {
     width: 275px;
     height: auto;
+	filter: grayscale(100%);
+	transition: 1s;
 }
 
-div.desc {
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+.desc {
     padding: 10px;
     text-align: center;
 }
-		
-		
+
+	
 @keyframes colors {
 	25%	{background-color: #19191c}
 	50%	{background-color: #151516}
