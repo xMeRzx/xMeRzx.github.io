@@ -60,6 +60,7 @@ p {
 nav.emo {
     position: sticky;
     top: 0px;
+	z-index: 1;
 }
         
     nav.emo ul{
@@ -200,7 +201,20 @@ img {
 	font-family: matoran;
 }
 
-
+.sanahyppy {
+	font-family: helvetica;
+	background-color: rgba(213, 223, 222, 0.7);
+	border: solid 2px rgba(0,0,0,0.5);
+	border-radius: 9px;
+	padding: 20px;
+	position: sticky;
+	top: 60px;
+	margin-right: 60px;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	
+}
 .sanakirja { 
 	color: #e40303;
 	font-weight: bold; 
@@ -218,23 +232,30 @@ img {
 .gallery:hover {
     border: 1px solid #e40303;
 }
-*/
-
-.gallery img {
-    height: 250px;
-	filter: grayscale(50%);
-	transition: 0.5s;
-}
-
-.gallery img:hover{
-	filter: grayscale(0);
-	transform: scale(1.1);
-}
 
 .desc {
     padding: 10px;
     text-align: center;
+	position: absolute;
+	z-index: 1;
 }
+
+*/
+
+.gallery {
+	margin-left: 270px;
+}
+
+.gallery img {
+    height: 200px;
+	filter: grayscale(50%);
+	transition: 0.5s;
+}
+
+	.gallery img:hover {
+		filter: grayscale(0);
+		transform: scale(1.1);
+	}
 
 	
 @keyframes colors {
