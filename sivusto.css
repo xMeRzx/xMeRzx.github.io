@@ -221,7 +221,8 @@ img {
 }
 
 
-/* .gallery {
+/* 
+.gallery {
     margin: 10px;
     border: 1px solid transparent;
     float: left;
@@ -239,7 +240,6 @@ img {
 	position: absolute;
 	z-index: 1;
 }
-
 */
 
 .gallery {
