@@ -2,8 +2,6 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="./sivusto.css">
-		<link rel="stylesheet" type="text/css" href="./lightbox.min.css">
-		<script type="text/javascript" src="./lightbox-plus-jquery.min.js"> </script>
 		
 		<title> Art - BIONICLE fanpage </title>
 		
@@ -32,7 +30,9 @@
 			</nav>
 			
 			
-			<div class="gallery">
+			<div class="gallery"> 
+			
+				<!-- Gallery made with Lightbox by Lokesh Dhakar (lokeshdhakar.com) --> 
 			
 			    <a href="lewa.png" data-lightbox="mygallery" data-title="Lewa Phantoka by <a href='https://breaker-of-oaths.tumblr.com/'> breaker-of-oaths </a>"> <img src="lewa.png"> </a>
 			  
@@ -77,6 +77,18 @@
 		<footer class="jalkine"> 
 			<span class="fontti"> Meri Malminen </span> Meri Malminen & Meeri Santikko <span class="fontti">  Meeri Santikko </span>
 		</footer>
+		
+		<link rel="stylesheet" type="text/css" href="./lightbox.min.css">
+		<script type="text/javascript" src="./lightbox-plus-jquery.min.js"></script>
+		<script>
+			lightbox.option({
+				'fadeDuration': 0,
+				'imageFadeDuration': 0,
+				'resizeDuration': 0,
+				'wrapAround': true,
+				'alwaysShowNavOnTouchDevices': true,
+			})
+		</script>
 		
 	</body>
 	
