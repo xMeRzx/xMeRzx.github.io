@@ -54,6 +54,7 @@ p {
 	
 		 a:hover {
 			color: #ff8c00;
+			transition: all 0.3s ease;
 		}
 		
 
@@ -83,6 +84,7 @@ nav.emo {
             nav.emo a:hover {
                 background-color: #e40303;
                 color: #151516;
+                transition: all 0.3s ease;
         }
 
 		
@@ -116,6 +118,7 @@ nav.poikanen {
 		nav.poikanen a:hover {
 			background-color: #ff8c00;
 			color: #151516;
+			transition: all 0.3s ease;
 		}
 
 		
@@ -131,6 +134,20 @@ nav .lajit-linkit {
     nav .lajit-teksti:hover {
 		cursor: pointer;
     }
+    
+nav .paikka-linkit {
+        display: none;
+        margin-left: 40px;
+    }
+    
+    nav .paikka-linkit a {
+        padding: 5px 5px;
+    }    
+    
+    nav .paikka-teksti:hover {
+		cursor: pointer;
+    }
+
 	
 		
 a {
@@ -241,3 +258,7 @@ img {
 	75%	{background-color: #ff8c00}
 	100%	{background-color: #e40303 }
 }
+
+
+
+

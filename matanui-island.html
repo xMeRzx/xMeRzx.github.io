@@ -36,11 +36,21 @@
                       </ul>
 				<li><a href="matorandictionary.html"> Matoran Dictionary </a></li>
             </ul>
+			
+           	<ul class="lajit-valikko">
+                <li class="paikka-teksti"><a> Other locations </a></li>
+                    <ul class="paikka-linkit">
+                      	<li> <a href="matanui-island.html"> Mata Nui </a> </li>
+                        <li> <a href="metrunui.html"> Metru Nui </a> </li>
+                        <li> <a href="mahrinui.html"> Mahri Nui </a> </li>
+                        <li> <a href="kardanui.html"> Karda Nui </a> </li>
+                        <li> <a href="voyanui.html"> Voya Nui </a> </li>
+                      </ul>
         </nav>
 			
 			<h2 class="keskitys"> Mata Nui </h2>
 			
-			<p> <img src="matanui-islandmap.jpg" height="100px" class="sivukuva" title="Mata Nui"> </p>
+			<p> <img src="matanuiisland.jpg" height="150px" class="sivukuva" title="Mata Nui"> Mata Nui was once an island paradise. The island featured tall icy mountains, deep ocean bays, wide desert expanses, caves deep underground, lush green jungles, even a volcano. <br><br>For a thousand years, Matoran lived in six villages, each ruled by a wise Turaga, bothered only by the occasional rahi beast. The island was divided into six regions, or Wahi, each of which had a village, or Koro.  </p>
 			
 			
 			<h2 class="keskitys"> Ga-Wahi; from sandy beaches to white cliffs </h2>
@@ -110,6 +120,15 @@
 						});
 					});
 				</script>
+					
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			        <script> 
+				        $(document).ready(function() {
+						$('.paikka-teksti').on('click', () => {
+			                $('.paikka-linkit').toggle();
+							});
+						});
+					</script>
 	
 			</body>
 		</html>

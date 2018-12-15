@@ -36,16 +36,26 @@
                       </ul>
 				<li><a href="matorandictionary.html"> Matoran Dictionary </a></li>
             </ul>
+           	<ul class="lajit-valikko">
+                <li class="paikka-teksti"><a> Other locations </a></li>
+                    <ul class="paikka-linkit">
+                      	<li> <a href="matanui-island.html"> Mata Nui </a> </li>
+                        <li> <a href="metrunui.html"> Metru Nui </a> </li>
+                        <li> <a href="mahrinui.html"> Mahri Nui </a> </li>
+                        <li> <a href="kardanui.html"> Karda Nui </a> </li>
+                        <li> <a href="voyanui.html"> Voya Nui </a> </li>
+                      </ul>
         </nav>
 			
 			<h2 class="keskitys"> Metru Nui </h2>
 			
 			<p> <img src="metrunuimap.jpg" height=250px class="sivukuva" title="Metru Nui">
-				Metru Nui (literally translated as "Great City") was a city located under the island of Metru Nui. It was known as the City of Legends and can be considered the most 
-			central location in the Matoran Universe. It functioned as the brain of the Great Spirit, and the working Matoran who lived there were essential in keeping the universe intact and active. <br><br>
+				Metru Nui (literally translated as "Great City") was a city great metropolis floating on a sea of liquid protodermis. It was known as the City of Legends and can be considered the most 
+			central location in the Matoran Universe. <br><br>
+			
 			The city is slightly smaller than the island of Mata Nui, about 2 145 square kilometres. It is divided into six regions or "metrus"; Ga-Metru, Ta-Metru, Le-Metru, Po-Metru, Onu-Metru and Ko-Metru. <br><br>
 				
-				The city floats on a Protodermis sea beneath the surface of Mata Nui. During much of its existence it was guarded by the Vahki: mechanical order enforcement units which main purpose was to maintain order, to defend the city from Rahi rampages and to make sure Matoran worked when they were scheduled to do so.</p>
+				 During much of its existence it was guarded by the Vahki: mechanical order enforcement units which main purpose was to maintain order, to defend the city from Rahi rampages and to make sure Matoran worked when they were scheduled to do so.</p>
 			
 				
 				<h2 class="keskitys"> Ga-Metru; home of scholars and scientists </h2>
@@ -103,6 +113,15 @@
 						});
 					});
 				</script>
+					
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			        <script> 
+				        $(document).ready(function() {
+						$('.paikka-teksti').on('click', () => {
+			                $('.paikka-linkit').toggle();
+							});
+						});
+					</script>
 	
 			</body>
 		</html>
