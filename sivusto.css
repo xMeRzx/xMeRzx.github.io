@@ -142,12 +142,12 @@ nav .paikka-linkit {
     
     nav .paikka-linkit a {
         padding: 5px 5px;
+        list-style-type: none;
     }    
     
     nav .paikka-teksti:hover {
 		cursor: pointer;
     }
-
 	
 		
 a {
@@ -184,16 +184,17 @@ a {
 img {
 	margin: 10px;
 	padding: none;
+	max-width: 100%;
 }
 
 	img.sivukuva {
 		float: right; 
 		margin-top: -20px;
 		margin-right: -20px;
-		margin-left: 20px
+		margin-left: 20px;
 		margin-bottom: 20px;
+		max-height: 250px;
 	}
-
 
 .kuva {
 	transition: 0.75s;
